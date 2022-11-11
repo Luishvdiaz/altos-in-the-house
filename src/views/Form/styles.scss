@@ -1,0 +1,74 @@
+@import "../../sass/main.scss";
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+  margin-bottom: 0;
+  width: 100%;
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  &__article {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 1.8rem;
+    margin-bottom: 5rem;
+
+    @include respond(tab-port) {
+      width: 90%;
+    }
+  }
+
+  &__input {
+    width: 70%;
+    height: 3rem;
+    border: none;
+    padding: 0.5rem;
+    border-bottom: 1px solid black;
+    margin: 0.7rem 0;
+
+    @include respond(tab-port) {
+      width: 90%;
+    }
+
+    &:focus-visible {
+      border: none;
+    }
+  }
+
+  &__send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    border-radius: 8px;
+    height: 3rem;
+    background-color: #72c769;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+  }
+
+  &__cancel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    border-radius: 8px;
+    height: 3rem;
+    background-color: #d65c53;
+    color: #ffffff;
+    font-size: 1.4rem;
+    cursor: pointer;
+    margin-bottom: 5rem;
+  }
+}
