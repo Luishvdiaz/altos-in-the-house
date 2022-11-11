@@ -32,6 +32,11 @@ const Nosotros: React.FC = () => {
           <b className='nosotros__group__item__text'>Andrea Ortega Galindo</b>
           <p className='nosotros__group__item__text'>“El único modo de hacer un gran trabajo es amar lo que haces”</p>
         </div>
+        <div className='nosotros__group__item'>
+          <img src="/images/5.jpg" alt="Logo" className='nosotros__group__item__logo' />
+          <b className='nosotros__group__item__text'>Leslie Patiño Lopezo</b>
+          <p className='nosotros__group__item__text'>“No tengas miedo al fracaso. Ten miedo de no de no intentarlo”</p>
+        </div>
       </div>
       <Footer />
     </div>
