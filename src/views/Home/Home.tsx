@@ -17,67 +17,67 @@ const Home: React.FC = () => {
         <img src="/images/arandas.jpg" alt="Arandas" className='home__image-container__image' />
       </div>
       <div className='home__nosotros'>
-        <p> <b>¿Quiénes somos?</b> <br /><br />“Altos in the house” somos una empresa dedicada a la exportación de productos de la más alta calidad de los diferentes lugares de la Región de los Altos</p>
+        <p> <b>¿Quiénes somos?</b> <br /><br />"Altos in the house"  es una empresa dedicada a la distribución de productos típicos de los 12 municipios de La Región De Los Altos de Jalisco</p>
       </div>
       <div className='home__info'>
         <h2>Región de los Altos</h2>
         <div className='home__info__item'>
-          <p className='home__info__item__title'>Yahualica</p>
+          <p className='home__info__item__title' translate="no">Yahualica</p>
           <img src="/images/location-pin.png" alt="location-pin" className='home__info__item__location-pin' />
           <img src="/images/yahualica.png" alt="Yahualica" className='home__info__item__image' />
         </div>
         <div className='home__info__item'>
-          <p className='home__info__item__title'>Valle de Guadalupe</p>
+          <p className='home__info__item__title' translate="no">Valle de Guadalupe</p>
           <img src="/images/location-pin.png" alt="location-pin" className='home__info__item__location-pin' />
           <img src="/images/valle-de-guadalupe.jpg" alt="Valle de Guadalupe" className='home__info__item__image' />
         </div>
         <div className='home__info__item'>
-          <p className='home__info__item__title'>Tepatitlán De Morelos</p>
+          <p className='home__info__item__title' translate="no">Tepatitlán De Morelos</p>
           <img src="/images/location-pin.png" alt="location-pin" className='home__info__item__location-pin' />
           <img src="/images/tepa.png" alt="Tepatitlán De Morelos" className='home__info__item__image' />
         </div>
         <div className='home__info__item'>
-          <p className='home__info__item__title'>San Miguel el Alto</p>
+          <p className='home__info__item__title' translate="no">San Miguel el Alto</p>
           <img src="/images/location-pin.png" alt="location-pin" className='home__info__item__location-pin' />
           <img src="/images/san-miguel.png" alt="San Miguel el Alto" className='home__info__item__image' />
         </div>
         <div className='home__info__item'>
-          <p className='home__info__item__title'>San Julián</p>
+          <p className='home__info__item__title' translate="no">San Julián</p>
           <img src="/images/location-pin.png" alt="location-pin" className='home__info__item__location-pin' />
           <img src="/images/san-julian.png" alt="San Julián" className='home__info__item__image' />
         </div>
         <div className='home__info__item'>
-          <p className='home__info__item__title'>San Ignacio Cerro Gordo</p>
+          <p className='home__info__item__title' translate="no">San Ignacio Cerro Gordo</p>
           <img src="/images/location-pin.png" alt="location-pin" className='home__info__item__location-pin' />
           <img src="/images/san-ignacio.png" alt="San Ignacio Cerro Gordo" className='home__info__item__image' />
         </div>
         <div className='home__info__item'>
-          <p className='home__info__item__title'>San Juan De Los Lagos</p>
+          <p className='home__info__item__title' translate="no">San Juan De Los Lagos</p>
           <img src="/images/location-pin.png" alt="location-pin" className='home__info__item__location-pin' />
           <img src="/images/san-juan-de-los-lagos.jpg" alt="San Juan De Los Lagos" className='home__info__item__image' />
         </div>
         <div className='home__info__item'>
-          <p className='home__info__item__title'>Jesús María</p>
+          <p className='home__info__item__title' translate="no">Jesús María</p>
           <img src="/images/location-pin.png" alt="location-pin" className='home__info__item__location-pin' />
           <img src="/images/jesus-maria.png" alt="Jesús María" className='home__info__item__image' />
         </div>
         <div className='home__info__item'>
-          <p className='home__info__item__title'>Jalostotitlán</p>
+          <p className='home__info__item__title' translate="no">Jalostotitlán</p>
           <img src="/images/location-pin.png" alt="location-pin" className='home__info__item__location-pin' />
           <img src="/images/jalos.jpg" alt="Jalostotitlán" className='home__info__item__image' />
         </div>
         <div className='home__info__item'>
-          <p className='home__info__item__title'>Lagos De Moreno</p>
+          <p className='home__info__item__title' translate="no">Lagos De Moreno</p>
           <img src="/images/location-pin.png" alt="location-pin" className='home__info__item__location-pin' />
           <img src="/images/lagos.png" alt="Lagos De Moreno" className='home__info__item__image' />
         </div>
         <div className='home__info__item'>
-          <p className='home__info__item__title'>Arandas</p>
+          <p className='home__info__item__title' translate="no">Arandas</p>
           <img src="/images/location-pin.png" alt="location-pin" className='home__info__item__location-pin' />
           <img src="/images/arandas.png" alt="Arandas" className='home__info__item__image' />
         </div>
         <div className='home__info__item'>
-          <p className='home__info__item__title'>Acatic</p>
+          <p className='home__info__item__title' translate="no">Acatic</p>
           <img src="/images/location-pin.png" alt="location-pin" className='home__info__item__location-pin' />
           <img src="/images/acatic.png" alt="Acatic" className='home__info__item__image' />
         </div>

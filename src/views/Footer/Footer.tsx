@@ -5,7 +5,7 @@ import './styles.scss';
 const Footer: React.FC = () => {
   return (
     <div className='footer'>
-      <img src="/images/logo.PNG" alt="Logo" className='home__image-container__logo' />
+      <img src="/images/logo.PNG" alt="Logo" className='footer__logo' />
       <div className='footer__contact'>
         <b>Contacto</b>
         <a href="mailto:contacto@altosinthehouse.mx">contacto@altosinthehouse.mx</a>

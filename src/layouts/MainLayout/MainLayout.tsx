@@ -20,7 +20,7 @@ export const MainLayout = () => {
         <div className={`main-layout__menu__menu-mobile main-layout__menu__menu-mobile${menu ? '--open' : ''}`}>
           <div onClick={() => { navigate('/home'); setMenu(false);}} className='main-layout__menu__menu-mobile__clickeable-option'>Inicio</div>
           <div onClick={() => {navigate('/nosotros'); setMenu(false);}} className='main-layout__menu__menu-mobile__clickeable-option'>Nosotros</div>
-          <div className='main-layout__menu__chopping-cart-container' onClick={() => navigate('/form')}>
+          <div className='main-layout__menu__chopping-cart-container' onClick={() => {navigate('/form'); setMenu(false);}}>
             <div className='main-layout__menu__chopping-cart-container__dot'>{articles.length}</div>
             <img src="/images/carrito.png" alt="Shopping cart" className='main-layout__menu__chopping-cart-container__image' />
           </div>

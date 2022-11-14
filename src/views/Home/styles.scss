@@ -8,6 +8,10 @@
   align-items: center;
   background-color: #f2f2f2;
 
+  @include respond(tab-port) {
+    margin-top: 7rem;
+  }
+
   &__image-container {
     display: flex;
     justify-content: center;
@@ -19,7 +23,7 @@
 
     &__logo {
       z-index: 9;
-      height: 60%;
+      height: 80%;
       animation: appear_logo 1s ease-out;
     }
 
@@ -32,6 +36,7 @@
       transform: translateY(-30%);
       z-index: 8;
       animation: appear_image 3s ease-out;
+      filter: grayscale(30%) blur(2px);
 
       @include respond(tab-port) {
         width: 150rem;
