@@ -8,7 +8,7 @@
   background-color: #f2f2f2;
 
   @include respond(tab-port) {
-    margin-top: 9rem;
+    margin-top: 7rem;
   }
 
   p {
@@ -29,8 +29,15 @@
   }
 
   &__logo {
-    height: 80%;
+    width: 30%;
     margin: 1rem;
+    max-width: 90vw;
+
+    
+    @include respond(tab-port) {
+      width: 30rem;
+    }
+
   }
 
   &__group {
