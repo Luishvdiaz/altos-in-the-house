@@ -20,6 +20,7 @@
     position: relative;
     height: 60vh;
     overflow: hidden;
+    background-color: $color-black;
 
     &__logo {
       z-index: 9;
@@ -35,7 +36,10 @@
       width: 100%;
       transform: translateY(-30%);
       z-index: 8;
-      animation: appear_image 3s ease-out;
+      // animation: appear_image 2s linear 0s infinite;
+      // animation: disapear_image 2s linear 5s infinite ;
+      animation: image_home 10s linear 0s infinite;
+      
       filter: grayscale(30%) blur(2px);
 
       @include respond(tab-port) {

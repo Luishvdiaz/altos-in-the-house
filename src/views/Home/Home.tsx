@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AppContext } from '../../context/AppContext';
 import Footer from '../Footer';
@@ -10,11 +10,32 @@ const Home: React.FC = () => {
 
   const { setArticles } = useContext(AppContext);
 
+  const sources = ['arandas.jpg', 'sanmiguel.jpg', 'acatic-plaza.jpg', 'san-ignacio-cerro-gordo.jpg', 'tepa.jpg'];
+
+  const [imageSource, setImageSource] = useState(sources[0]);
+
+  let count = 1;
+
+  const changeImage = () => {
+    setTimeout(() => {
+      if (count + 1 === 6) {
+        count = 0;
+      }
+      setImageSource(sources[count]);
+      count = count + 1;
+      changeImage();
+    }, 10000);
+  };
+
+  useEffect(() => {
+    changeImage();
+  }, [])
+  
   return (
     <div className='home'>
       <div className='home__image-container'>
         <img src="/images/logo.PNG" alt="Logo" className='home__image-container__logo' />
-        <img src="/images/arandas.jpg" alt="Arandas" className='home__image-container__image' />
+        <img src={`/images/${imageSource}`} alt="Altos de Jalisco" className='home__image-container__image' />
       </div>
       <div className='home__nosotros'>
         <p> <b>¿Quiénes somos?</b> <br /><br />"Altos in the house"  es una empresa dedicada a la distribución de productos típicos de los 12 municipios de La Región De Los Altos de Jalisco</p>

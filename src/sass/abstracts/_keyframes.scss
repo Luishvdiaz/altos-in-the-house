@@ -11,15 +11,20 @@
   }
 }
 
-@keyframes appear_image {
+@keyframes image_home {
   0% {
     opacity: 0;
   }
-  100% {
+  5% {
     opacity: 1;
   }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
-
 
 @keyframes dot-map {
   0% {
